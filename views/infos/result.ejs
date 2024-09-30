@@ -1,0 +1,21 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    
+    <br><br>
+    <h1 class="heading">Details for Group <b><%= gpNum %></b></p></h1>
+    <br>
+    
+    <br>
+    <div class="user-result">
+        <% if (result.error) { %>
+            <p><%= result.error %></p>
+        <% } else { %>
+            <p class="min">Minimum Effort till round <%= result.round %>: <%= result.minEffort %></p>
+            <p class="min cumSum">Cumulative Score till round <%= result.round %> : <%= result.cumSum %></p>
+        <% } %>
+    </div>
+    
+    <!-- <a href="/infos">Go Back</a> -->
+    
+</body>

@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/rules"><i class="fa-solid fa-people-group"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+
+          <a class="nav-link" href="/rules">Rules</a>
+
+          <a class="nav-link" href="/home">Home</a>
+          
+          <!-- <a class="nav-link" href="/infos/register"></a> -->
+        </div>
+
+        <div class="navbar-nav ms-auto">
+          
+          <% if(!curr) { %>
+            <a class="nav-link" href="/signup"><b>Signup</b></a>
+            <a class="nav-link" href="/login"><b>Login</b></a>
+            <a class="nav-link" href="/infos/register"><b>Register if you're new!</b></a>
+
+          <% } %> 
+
+          <% if(curr) { %>
+            <a class="nav-link" href="/logout"><b>Log out</b></a>
+            
+          <% } %>
+
+        </div>
+
+      </div>
+    </div>
+</nav>

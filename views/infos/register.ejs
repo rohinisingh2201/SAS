@@ -1,0 +1,57 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    <div class="register">
+        <h2 class="heading">Enter your details</h2>
+        <br>
+        <form action="http://localhost:8080/infos/register" method="POST" >
+            <label class="reg" for="name">Your name</label>
+            <input class="input1" type="text" name="info[name]" id="name" required>
+            <br><br>
+            <label class="reg" for="rollNum">Roll Number</label>
+            <input class="input1" type="text" name="info[rollNum]" id="rollNum" required>
+            <br><br>
+            <label class="reg" for="gpNum">Your Group Number</label>
+            <input class="input1" type="text" name="info[gpNum]" id="gpNum" required>
+            <br><br>
+            <label class="reg" for="effort1">Enter your <b>Effort</b> for <b>Round 1</b></label>
+            <input class="input1" type="text" name="info[effort1]" id="effort1" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort2">Enter your <b>Effort</b> for <b>Round 2</b></label>
+            <input class="input1" type="text" name="info[effort2]" id="effort2" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort3">Enter your <b>Effort</b> for <b>Round 3</b></label>
+            <input class="input1" type="text" name="info[effort3]" id="effort3" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort4">Enter your <b>Effort</b> for <b>Round 4</b></label>
+            <input class="input1" type="text" name="info[effort4]" id="effort4" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort5">Enter your <b>Effort</b> for <b>Round 5</b></label>
+            <input class="input1" type="text" name="info[effort5]" id="effort5" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort6">Enter your <b>Effort</b> for <b>Round 6</b></label>
+            <input class="input1" type="text" name="info[effort6]" id="effort6" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort7">Enter your <b>Effort</b> for <b>Round 7</b></label>
+            <input class="input1" type="text" name="info[effort7]" id="effort7" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort8">Enter your <b>Effort</b> for <b>Round 8</b></label>
+            <input class="input1" type="text" name="info[effort8]" id="effort8" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort9">Enter your <b>Effort</b> for <b>Round 9</b></label>
+            <input class="input1" type="text" name="info[effort9]" id="effort9" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort10">Enter your <b>Effort</b> for <b>Round 10</b></label>
+            <input class="input1" type="text" name="info[effort10]" id="effort11" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort11">Enter your <b>Effort</b> for <b>Round 11</b></label>
+            <input class="input1" type="text" name="info[effort11]" id="effort11" min="0" max="4" required>
+            <br><br>
+            <label class="reg" for="effort12">Enter your <b>Effort</b> for <b>Round 12</b></label>
+            <input class="input1" type="text" name="info[effort12]" id="effort12" min="0" max="4" required>
+            <br><br>
+            
+            <button class="button">Save</button>
+        </form>
+    </div>
+</body>

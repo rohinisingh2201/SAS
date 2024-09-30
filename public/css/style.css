@@ -1,0 +1,211 @@
+
+.main {
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2rem;
+    color: #8c4848;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+body {
+    /* font-family: 'Plus Jakarta Sans', sans-serif !important; */
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* navbar  */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+}
+
+.nav-link:hover {
+    font-weight: 800;
+}
+
+.fa-solid {
+    color: #B06161;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* cards  */
+
+.heading {
+    font-size: 2rem !important;
+}
+
+.card {
+    border: none !important;
+    padding: 2rem 2rem 2rem 2rem;
+    /* display: flex !important; */
+    display: inline-block !important;
+}
+
+
+
+.gpName {
+    color: #222222 !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+}
+
+.input {
+    border: 2.5px solid #B06161 !important;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 20rem;
+    outline: none;
+    padding: 1.5rem;
+}
+
+.button {
+    border: 2px solid #B06161 !important;
+    border-radius: 0.7rem;
+    height: 2.5rem !important;
+    width: 6rem !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* register  */
+.register {
+    padding: 2rem;
+}
+
+.input1 {
+    border: 2.5px solid #B06161 !important;
+    border-radius: 2rem;
+    height: 2.5rem !important;
+    outline: none;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.reg {
+    font-size: 1.5rem !important;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.button2 {
+    border: 2px solid #B06161 !important;
+    border-radius: 0.7rem;
+    height: 2.5rem !important;
+    width: 30rem !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* result  */
+.finalR {
+    color: #B06161;
+}
+
+.min {
+    font-size: 2rem !important;
+    font-weight: 500;
+}
+
+
+/* your details css  */
+
+main {
+    /* margin: 10px; */
+    /* height: 80vh; */
+    display: inline-flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.rules {
+    width: 600px;
+    height: 60rem;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+    border-radius: 10px;
+    min-width: 260px; 
+    cursor: pointer;
+}
+  
+.rules:hover {
+    box-shadow: 0px 10px 30px rgba(0,0,0,.3);
+    transition: 300ms ease;
+}
+
+.h {
+    height: 150px;
+}
+
+.r {
+    height: 78rem;
+    margin-bottom: 15rem;
+}
+
+.user-name {
+    width: 25rem;
+    height: 10rem;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+    border-radius: 10px;
+    /* min-width: 260px;  */
+    cursor: pointer;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-decoration: none !important;
+    color: #B06161 !important;
+    font-size: 2rem;
+}
+
+.user-name:hover {
+    box-shadow: 0px 10px 30px rgba(0,0,0,.3);
+    transition: 300ms ease;
+}
+
+.user-card {
+    width: 600px;
+    height: 30rem;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+    border-radius: 10px;
+    min-width: 260px; 
+    cursor: pointer;
+}
+
+.h {
+    height: 12rem;
+}
+
+.user-card:hover {
+    box-shadow: 0px 10px 30px rgba(0,0,0,.3);
+    transition: 300ms ease;
+}
+
+/* result  */
+
+.user-result {
+    width: 40rem;
+    height: 15rem;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+    border-radius: 10px;
+    /* min-width: 260px;  */
+    cursor: pointer;
+}
+

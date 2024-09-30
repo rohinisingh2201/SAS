@@ -1,0 +1,15 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    <h3>Click your name below to check the score! </h3>
+
+    <% for(let info of allInfos) { %>
+        <% if(checkGp == info.gpNum) { %>
+            <div class="user-name">
+                <a href="/infos/<%= info._id %>" style="text-decoration: none; color: black;"><%= info.name %></a>
+            </div>
+        <!-- <li><a href="/infos/<%= info._id %>"><%= info.name %></a></li> -->
+        <% } %>
+    <% } %>
+            
+</body>

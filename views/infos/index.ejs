@@ -1,0 +1,54 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    <!-- <h3>Enter your group name to find your Score!</h3>
+    <br> -->
+    <!-- Get form  -->
+    <!-- <form method="POST" action="http://localhost:8080/getMinEffort">
+        
+        <label for="gpNum">Group Name</label>
+        <input type="text" name="gpNum" placeholder="Enter your group name" required /> -->
+        <!-- <label for="effort">Your Effort</label>
+        <input type="number" name="effort" placeholder="Enter your effort" min="0" max="4" required /> -->
+        <!-- <br><br> -->
+        <!-- <button type="submit">Submit</button>
+    </form>
+    <br><br> -->
+    <!-- <form method="GET" action="http://localhost:8080/infos/register">
+        <button>Register here</button>
+    </form> -->
+    <div class="row">
+        
+        <div class="card" style="width: 60rem;">
+
+            <main>
+
+                <div class="user-card h">
+                    <h3><b>Name: </b><%= info.name %></h3>
+                    <h3><b>Your Group Number: </b><%= info.gpNum %></h3>
+                </div>
+
+                <div class="card-body user-card">
+                    <h3 class="heading">Enter your group number to find the minimum</h3>
+                    <form method="POST" action="http://localhost:8080/infos/<%= info._id %>">
+                        <!-- <label for="gpNum" class="gpNum"><b>Group Numer</b></label> -->
+                        
+                        <input class="input" type="text" name="gpNum" placeholder="Enter your group number" required />
+                        <!-- <label for="effort">Your Effort</label>
+                        <input type="number" name="effort" placeholder="Enter your effort" min="0" max="4" required /> -->
+                        <br><br>
+                        <h2>Enter till which round you want to see the cumulative score</h2>
+                        <input class="input" type="text" name="round" placeholder="Enter your round" min="1" max="12" required />
+                        <br><br>
+                        <button class="button" type="submit">Submit</button>
+                        
+                    </form>
+                    
+                </div>
+
+            </main>
+            
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Effort</title>
+</head>
+<body>
+  <h1>Enter Efforts for Each Round</h1>
+  <form id="effortForm" action="/saveEffort" method="post">
+    <label for="groupName">Group Name:</label>
+    <input type="text" id="groupName" name="groupName" required>
+    <br>
+    <label for="personName">Person Name:</label>
+    <input type="text" id="personName" name="personName" required>
+    <br>
+    <!-- Create input fields for each round -->
+    <% for (let round = 1; round <= 10; round++) { %>
+      <label for="<%= `round${round}` %>">Round <%= round %> Effort:</label>
+      <input type="number" id="<%= `round${round}` %>" name="<%= `round${round}` %>" required>
+      <br>
+    <% } %>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
